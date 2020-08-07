@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="elevation">20dp</dimen>
+    <dimen name="detail_backdrop_height">206dip</dimen>
+    <dimen name="moto_text_size">20dp</dimen>
+    <dimen name="login_reg_margin">10dp</dimen>
+    <dimen name="button_round">20dp</dimen>
+    <dimen name="marker_image_height">50</dimen>
+    <dimen name="marker_image_weidth">50</dimen>
+    <dimen name="marker_img_padding">4</dimen>
+    <dimen name="padding_reward_system">10dp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KarmaNyak</string>
+    <string name="location_menu">Location</string>
+    <string name="offer_menu">Rewards</string>
+    <string name="events_menu">Events</string>
+    <string name="profile_menu">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search</string>
+    <string name="moto">Youth Empowerment By Community Volunteering!</string>
+
+    <string name="lorea">It is a long established fact  \'Content here, content here\', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for will ed over the years, sometimes by ur and the like).</string>
+</resources>

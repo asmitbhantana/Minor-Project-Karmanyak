@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitie.MainActivity">
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/content_main"
+                 android:layout_marginTop="0dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayoutId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:liftOnScroll="true"
+
+            >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbarId"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="@color/primaryTextColor"
+                app:layout_scrollFlags="scroll|enterAlways"
+                >
+
+                <!--<TextView-->
+                    <!--android:id="@+id/toolbar_text_id"-->
+                    <!--style="@style/Base.TextAppearance.AppCompat.Headline"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="30dp"-->
+                    <!--android:fontFamily="sans-serif-thin"-->
+                    <!--android:text="@string/app_name"-->
+                    <!--android:textColor="@color/secondaryTextColor" />-->
+
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <org.vansoft.karmanyak.customElement.BottomCurvedNavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botttm_nav_bar_id"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@android:color/transparent"
+            android:fontFamily="sans-serif-medium"
+            android:visibility="visible"
+            app:itemIconTint="@drawable/botm_icon_color"
+            app:itemTextColor="@drawable/botm_icon_color"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/nav_menu">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/qrScannerBtnId"
+                style="@style/Widget.Design.FloatingActionButton"
+                android:layout_width="@dimen/fab_size"
+                android:layout_height="@dimen/fab_size"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:tint="@android:color/white"
+                app:backgroundTint="@color/colorAccent"
+                app:elevation="@dimen/elevation"
+                app:hideMotionSpec="@android:anim/fade_out"
+                app:showMotionSpec="@android:anim/fade_in"
+                app:srcCompat="@drawable/ic_qr_code" />
+
+        </org.vansoft.karmanyak.customElement.BottomCurvedNavigationView>
+    </android.support.design.widget.CoordinatorLayout>
+
+</android.support.v4.widget.DrawerLayout>

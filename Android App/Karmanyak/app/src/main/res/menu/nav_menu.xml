@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="@string/location_menu"
+    android:icon="@drawable/ic_location_on_white"
+    android:id="@+id/location_nav_menu_id"
+    />
+<item
+    android:title="@string/offer_menu"
+    android:icon="@drawable/ic_shopping_cart_white"
+    android:id="@+id/reward_nav_menu_id"
+    />
+<item
+    android:title=""
+    />
+<item
+    android:title="@string/events_menu"
+    android:icon="@drawable/ic_view_event_list"
+    android:id="@+id/event_nav_menu_id"
+
+    />
+
+<item
+    android:title="@string/profile_menu"
+    android:icon="@drawable/ic_account_circle_profile"
+    android:id="@+id/profile_nav_menu_id"
+
+    />
+
+</menu>
